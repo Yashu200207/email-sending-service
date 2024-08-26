@@ -1,6 +1,7 @@
 {
   "name": "email-sending-service",
   "version": "1.0.0",
+  "description": "A service for sending emails",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -10,7 +11,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^22.5.0",
@@ -19,6 +19,8 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "email-sending-service": "file:",
+    "glob": "^9.0.0",
     "nodemailer": "^6.9.14"
   }
 }
