@@ -8,8 +8,8 @@
     "build": "tsc",
     "start": "node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["email", "service", "nodemailer"],
+  "author": "Yashu HS",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.12",
@@ -19,7 +19,6 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "email-sending-service": "file:",
     "glob": "^9.0.0",
     "nodemailer": "^6.9.14"
   }
