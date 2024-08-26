@@ -9,4 +9,8 @@ module.exports = {
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'json', 'node'],
   verbose: true, // Optional: display individual test results with details
+  moduleNameMapper: {
+    '^@utils/(.*)$': '<rootDir>/src/utils/$1'
+    // Add other aliases here if needed
+  },
 };
