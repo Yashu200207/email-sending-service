@@ -19,7 +19,6 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "email-sending-service": "file:",
     "nodemailer": "^6.9.14"
   }
 }
