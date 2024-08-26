@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1724640708574" clover="3.2.0">
+  <project timestamp="1724640708575" name="All files">
+    <metrics statements="35" coveredstatements="23" conditionals="19" coveredconditionals="8" methods="10" coveredmethods="7" elements="64" coveredelements="38" complexity="0" loc="35" ncloc="35" packages="2" files="3" classes="3"/>
+    <package name="providers">
+      <metrics statements="26" coveredstatements="15" conditionals="16" coveredconditionals="7" methods="8" coveredmethods="5"/>
+      <file name="EmailProviderA.ts" path="C:\Users\hsyas\Desktop\email-sending-service\src\providers\EmailProviderA.ts">
+        <metrics statements="13" coveredstatements="12" conditionals="8" coveredconditionals="7" methods="4" coveredmethods="4"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="1" type="cond" truecount="4" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+      <file name="EmailProviderB.ts" path="C:\Users\hsyas\Desktop\email-sending-service\src\providers\EmailProviderB.ts">
+        <metrics statements="13" coveredstatements="3" conditionals="8" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="9" coveredstatements="8" conditionals="3" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="rateLimiter.ts" path="C:\Users\hsyas\Desktop\email-sending-service\src\utils\rateLimiter.ts">
+        <metrics statements="9" coveredstatements="8" conditionals="3" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="cond" truecount="1" falsecount="2"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
